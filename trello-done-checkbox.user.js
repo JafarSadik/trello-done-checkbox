@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Trello done checkbox
-// @version      0.6
+// @version      0.7
 // @description  Script adds 'Done' button to trello task dialog box. It speeds up creation of one element checklists with 'Done' checkbox.
 // @author       Dzafar Sadik
 // @website      https://pl.linkedin.com/in/dzafarsadik
@@ -21,7 +21,7 @@
  Works well with trello build-211 (6 August 2016).
  */
 (function () {
-    //Timeout for DOM elements to appear
+    //Timeout for DOM elements to show up
     var TIMEOUT = 2500;
 
     //Shared variables
