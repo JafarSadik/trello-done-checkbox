@@ -5,4 +5,4 @@ A [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) a
 
 ![Trello done checkbox](https://github.com/JafarSadik/trello-done-checkbox/raw/master/trello-done-checkbox.jpg)
 
-\* Requires that you have Greasemonkey or Tampermonkey installed. Plugin will intercept raw script and present you with a dialog to install it.
+\* Requires that you have Greasemonkey or Tampermonkey installed in your browser. Plugin will intercept raw script and present you with a dialog to install it.
