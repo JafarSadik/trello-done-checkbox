@@ -40,7 +40,7 @@
         check($windowSidebar.length > 0, "Failed to locate div with class 'window-sidebar'!");
 
         //Add 'Done' button after 'Checklist' button. It won't be added if 'Checklist' button doesn't exist - limited access to the board.
-        var $tools = $windowSidebar.children().first();
+        var $tools = $windowSidebar.children();
         $addChecklistButton = $tools.find('a.js-add-checklist-menu');
         $addChecklistButton.after("<a class='button-link js-add-done-menu' href='#'><span class='icon-sm icon-checklist'></span> Done</a>");
 
@@ -120,7 +120,7 @@
                     return $item.find('textarea.js-new-checklist-item-input').length > 0;
                 },
                 handler: function () {
-                    $item.find('textarea.js-new-checklist-item-input').text('Done');
+                    $item.find('textarea.js-new-checklist-item-input').val('Done');
                 },
                 timeout: function () {
                     halt("Failed to locate textarea with class 'js-new-checklist-item-input'");
