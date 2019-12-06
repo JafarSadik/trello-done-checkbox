@@ -1,7 +1,7 @@
 # Trello done checkbox for Greasemonkey &amp; Tampermonkey
 A [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) and [Tampermonkey](https://tampermonkey.net/) plugin that greatly simplifies creation of 'Done' checkboxes. Only one mouse click required! To achieve the same thing with a built-in checklist you definitely need more patience :)
 
-Works well with trello build-211 (6 August 2016), tested on firefox and chrome. Any bugs will be resolved as soon as possible. Script supports automatic updates.
+Works well with trello build-4109 (6 December 2019), tested on firefox and chrome. Any bugs will be resolved as soon as possible. Script supports automatic updates.
 
 [Install it now!](http://bit.ly/2aH380F)*
 
